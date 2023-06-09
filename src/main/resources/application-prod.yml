@@ -9,6 +9,8 @@ spring:
   #session失效时间 1day = 86400s
   session:
     timeout: 86400
+server:
+  address: 0.0.0.0
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: false
